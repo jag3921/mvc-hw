@@ -12,9 +12,9 @@ const router = require('./router.js');
 
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
-//const dbURL = process.env.MONGODB_URI;
+const dbURL = process.env.MONGODB_URI;
 
-const dbURL = 'mongodb+srv://jag3921:Igloome3921!@cluster0.xy5z.mongodb.net/simpleMVCExample';
+//const dbURL = 'mongodb+srv://jag3921:Igloome3921!@cluster0.xy5z.mongodb.net/simpleMVCExample';
 /*
 const mongooseOptions = {
   useNewUrlParser: true,
